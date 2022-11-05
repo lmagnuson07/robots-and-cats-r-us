@@ -10,8 +10,8 @@ export default function Home() {
       </Head>
       <HeaderComponent 
         title="Robots and Cats 'R Us"
-        tagline="Purchase a robot for any of your personal needs or select from our large range of virtual cats that will accompany you in the metaverse."
-        imgSrc="logo.png"
+        tagline="Purchase a robot for any of your personal needs or select from our large range of virtual cats, all of which will accompany you in the metaverse!"
+        imgSrc="img/logo.png"
         imgAlt="Cats and Robots 'R Us logo"
       />
     </>
