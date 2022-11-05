@@ -1,9 +1,11 @@
 
-function HeaderComponent({tagline, title, imgSrc, imgAlt, ...props}) {
+function HeaderComponent({tagline, title, imgSrc, imgAlt, imgWidth, imgHeight, ...props}) {
     return ( 
         <header className="h-screen bg-gradient-to-br from-slate-500 via-gray-900 to-slate-900">
             <div className="h-screen container grid grid-rows-[120px_minmax(400px,_1fr)_120px] justify-items-center mx-auto">
                 <img className="w-80 px-3"
+                    width={imgWidth}
+                    height={imgHeight}
                     src={imgSrc} 
                     alt={imgAlt} 
                 />
