@@ -4,6 +4,15 @@
 
 @layer components {
     .text-shadow {
-        text-shadow: 3px 3px 3px theme('colors.secondary');
+        text-shadow: 3px 3px 3px theme('colors.textShadowGray');
+    }
+    .text-shadow-sm {
+        text-shadow: 2px 2px 2px theme('colors.textShadowGray');
+    }
+    .text-shadow-md {
+        text-shadow: 4px 4px 4px theme('colors.textShadowGray');
+    }
+    .text-shadow-lg {
+        text-shadow: 5px 5px 5px theme('colors.textShadowGray');
     }
 }
