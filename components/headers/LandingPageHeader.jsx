@@ -1,5 +1,5 @@
 
-function HeaderComponent({tagline, title, imgSrc, imgAlt, imgWidth, imgHeight, ...props}) {
+function LandingPageHeader({tagline, title, imgSrc, imgAlt, imgWidth, imgHeight, ...props}) {
     return ( 
         <header className="h-screen bg-gradient-to-br from-slate-500 via-gray-900 to-slate-900">
             <div className="h-screen container grid grid-rows-[120px_minmax(400px,_1fr)_120px] justify-items-center mx-auto">
@@ -22,4 +22,4 @@ function HeaderComponent({tagline, title, imgSrc, imgAlt, imgWidth, imgHeight, .
     );
 }
 
-export default HeaderComponent;
+export default LandingPageHeader;
