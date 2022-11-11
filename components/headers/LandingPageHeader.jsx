@@ -10,9 +10,9 @@ function LandingPageHeader({tagline, title, imgSrc, imgAlt, imgWidth, imgHeight,
                     alt={imgAlt} 
                 />
                 <div className="self-center mx-3">
-                    <h1 className="w-[fit-content] mb-12 mx-auto sm:text-7xl text-5xl text-center font-serif font-bold text-stone-100 text-shadow-sm sm:text-shadow">
+                    <h2 className="w-[fit-content] mb-12 mx-auto sm:text-7xl text-5xl text-center font-serif font-bold text-stone-100 text-shadow-sm sm:text-shadow">
                         {title}
-                    </h1>
+                    </h2>
                     <p className="w-[fit-content] max-w-4xl sm:text-xl text-base text-center text-zinc-200">
                         {tagline}
                     </p>

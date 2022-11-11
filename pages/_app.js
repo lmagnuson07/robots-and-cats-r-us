@@ -1,5 +1,6 @@
 import '../styles/global.css'
 import Head from 'next/head'
+import DefaultLayout from './../components/layouts/DefaultLayout'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -7,7 +8,9 @@ function MyApp({ Component, pageProps }) {
     <Head>
       <meta name="viewport" content="width=device-width,initial-scale=1" />
     </Head>
-    <Component {...pageProps} />
+    <DefaultLayout>
+      <Component {...pageProps} />
+    </DefaultLayout>
   </>
   )
 }
