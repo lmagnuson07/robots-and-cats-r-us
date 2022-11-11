@@ -5,12 +5,16 @@ import NavBarLinks from './NavBarLinks';
 
 function NavBar() {
     return ( 
-        <nav className="flex justify-between shadow relative">
-            <NavBarBranding />
-            <NavBarLinks />
-            <LoginButton className="md:flex md:justify-end" />
-            <MobileMenuButton className="md:hidden"/> 
-        </nav>
+        <header className=" shadow-lg text-slate-600 font-bold relative md:px-3 pl-3 py-4">
+            <div className="container flex justify-between items-center mx-auto">
+                <NavBarBranding />
+                <nav>
+                    <MobileMenuButton className="lg:hidden"/> 
+                    <NavBarLinks />
+                </nav>
+                <LoginButton className="lg:flex lg:justify-end" />
+            </div>
+        </header>
      );
 }
 

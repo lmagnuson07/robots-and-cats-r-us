@@ -4,15 +4,19 @@
 
 @layer components {
     .text-shadow {
-        text-shadow: 3px 3px 3px theme('colors.textShadowGray');
+        text-shadow: 3px 3px 3px theme('colors.textShadowDark');
     }
     .text-shadow-sm {
-        text-shadow: 2px 2px 2px theme('colors.textShadowGray');
+        text-shadow: 2px 2px 2px theme('colors.textShadowDark');
     }
     .text-shadow-md {
-        text-shadow: 4px 4px 4px theme('colors.textShadowGray');
+        text-shadow: 4px 4px 4px theme('colors.textShadowDark');
     }
     .text-shadow-lg {
-        text-shadow: 5px 5px 5px theme('colors.textShadowGray');
+        text-shadow: 5px 5px 5px theme('colors.textShadowDark');
+    }
+    .bg-custom-slate-arc {
+        background-color: rgb(51, 65, 85);
+        background-image: radial-gradient(at 50% 91%, rgb(71, 85, 105) 0, transparent 54%), radial-gradient(at 64% 47%, rgb(15, 23, 42) 0, transparent 80%), radial-gradient(at 35% 46%, rgb(15, 23, 42) 0, transparent 80%);
     }
 }
