@@ -5,7 +5,7 @@ import NavBarLinks from './NavBarLinks';
 
 function NavBar() {
     return ( 
-        <header className=" shadow-lg text-slate-600 font-bold relative md:px-3 pl-3 py-4">
+        <header className="bg-gray-50 shadow-lg text-slate-600 font-bold relative md:px-3 pl-3 py-4">
             <div className="container flex justify-between items-center mx-auto">
                 <NavBarBranding />
                 <nav>
