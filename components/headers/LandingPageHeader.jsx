@@ -11,14 +11,14 @@ function LandingPageHeader({tagline, imgSrc, imgAlt, imgWidth, imgHeight, ...pro
                         width="160"
                         height="160"
                     />
-                    <div className="w-full md:w-80 px-3">
+                    <h2 className="w-full md:w-80 px-3">
                         <Image className="w-72 md:w-80 mx-auto"
                             width={imgWidth}
                             height={imgHeight}
                             src={imgSrc} 
                             alt={imgAlt} 
                         />
-                    </div>
+                    </h2>
                     <Image className="order-1 w-28 md:w-40"
                         src="/img/service-robot.png"
                         alt="Service robot sample image"
