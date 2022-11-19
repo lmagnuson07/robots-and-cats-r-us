@@ -5,6 +5,9 @@ const nextConfig = {
     locales: ['en'],
     defaultLocale: 'en',
   },
+  images: {
+    domains: ['robohash.org'],
+  }
 }
 
 module.exports = nextConfig
