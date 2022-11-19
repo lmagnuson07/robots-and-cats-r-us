@@ -6,9 +6,7 @@ export default function LoginPage(){
             <Head>
                 <title>Login</title>
             </Head>
-            <main>
-                <h1>Hi. This is the login</h1>
-            </main>
+            <h1>Hi. This is the login</h1>
         </>
     )
 }

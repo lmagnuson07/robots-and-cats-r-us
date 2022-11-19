@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-function LandingPageHeader({tagline, imgSrc, imgAlt, imgWidth, imgHeight, ...props}) {
+function LandingPageHeader({title, tagline, imgSrc, imgAlt, imgWidth, imgHeight, ...props}) {
     return ( 
         <header className="bg-custom-slate-arc py-12 px-3">
             <div className="container grid justify-items-center mx-auto">
@@ -28,8 +28,8 @@ function LandingPageHeader({tagline, imgSrc, imgAlt, imgWidth, imgHeight, ...pro
                 </div>
                 <figure className="flex flex-wrap items-center justify-center gap-16 md:gap-8 justify-self-start mx-4 lg:mx-28 mb-6 lg:mb-8 max-w-6xl md:justify-self-center">
                     <figcaption className="md:w-[calc(50%-1rem)]">
-                        <p className="text-4xl xl:text-5xl font-bold text-zinc-200 text-center md:text-left mb-10 font-serif text-shadow">Do you have a problem, hassle, or inconvenience?</p>
-                        <p className="text-2xl xl:text-3xl text-zinc-200 text-center md:text-left text-shadow">We have a Robot for that!!</p>
+                        <h2 className="text-4xl xl:text-5xl font-bold text-zinc-200 text-center md:text-left mb-10 text-shadow font-rockwell">{title}</h2>
+                        <p className="text-2xl xl:text-3xl text-zinc-200 text-center md:text-left text-shadow">{tagline}</p>
                     </figcaption>
                     <Image className="md:w-[calc(50%-1rem)]"
                         src="/img/agreement-image.png"

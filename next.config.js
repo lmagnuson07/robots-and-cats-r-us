@@ -6,7 +6,7 @@ const nextConfig = {
     defaultLocale: 'en',
   },
   images: {
-    domains: ['robohash.org'],
+    domains: ['robohash.org', 'external-preview.redd.it'],
   }
 }
 

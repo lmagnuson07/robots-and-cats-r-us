@@ -10,6 +10,9 @@ module.exports = {
     extend: {
       colors: {
         textShadowDark: '#0f172a', 
+      },
+      fontFamily: {
+        rockwell: 'Rockwell, cursive',
       }
     },
   },

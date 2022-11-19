@@ -7,13 +7,11 @@ function CatsPage() {
             <Head>
                 <title>Cats</title>
             </Head>
-            <main>
-                <ContentPageHeader
-                    type="Virtual Cats"
-                    title="Select from our range of Virtual Cats"
-                    tagline="Our virtual cats will be your trustworthy companions in the Metaverse!"
-                />
-            </main>
+            <ContentPageHeader
+                type="Virtual Cats"
+                title="Select from our range of Virtual Cats"
+                tagline="Our virtual cats will be your trustworthy companions in the Metaverse!"
+            />
         </>
     );
 }
