@@ -9,12 +9,18 @@ export default function Home() {
       </Head>
       <main>
         <LandingPageHeader 
-          tagline="Purchase a robot for any of your personal needs or select from our large range of virtual cats, all of which will accompany you in the metaverse!"
+          //tagline="Purchase a robot for any of your personal needs or select from our large range of virtual cats, all of which will accompany you in the metaverse!"
           imgSrc="/img/logo.png"
           imgAlt="Cats and Robots 'R Us logo"
           imgWidth="640"
           imgHeight="240"
         />
+        <section className="container mx-auto p-8 text-6xl font-bold ">
+          <h2>About us</h2>
+          <p className="w-[fit-content] my-10 md:my-24 max-w-3xl mx-3 sm:text-2xl text-lg text-center">
+            Purchase a robot for any of your personal needs or select from our large range of virtual cats, all of which will accompany you in the metaverse!
+          </p>
+        </section>
       </main>
     </>
   )
