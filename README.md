@@ -1,5 +1,5 @@
 # **Robots and Cats 'R Us**
-
+### [Live site](https://robots-and-cats-r-us.vercel.app/) - hosted on Vercel.
 ## **About Us**
 Robots and Cats 'R Us is a fictitious robot retailer based in the year 2100, where there are as many robots as there are humans, and the main source of entertainment for most of the population is the Metaverse. Robots and Cats 'R Us sells a large variety of robots, ranging from service robots that can do all your chores for you, combat robots that protect your family and loved ones, and social robots that keep you entertained and provide you with company. All robots can be connected to the Metaverse using their usernames and can accompany you in your journeys through the Metaverse with a more humanlike appearance. Robots and Cats 'R Us also has a large range of virtual cats that will be your faithful companions as you journey through the Metaverse (just don't pet them too much, or they might scratch you). 
 ### **Service Robots**
