@@ -1,15 +1,12 @@
 import '../styles/global.css'
-import Head from 'next/head'
 import DefaultLayout from './../components/layouts/DefaultLayout'
 
 function MyApp({ Component, pageProps }) {
+  const getLayout = Component.getLayout || ((page) => page)
   return (
   <>
-    <Head>
-      <meta name="viewport" content="width=device-width,initial-scale=1" />
-    </Head>
     <DefaultLayout>
-      <Component {...pageProps} />
+      {getLayout(<Component {...pageProps} />)}
     </DefaultLayout>
   </>
   )

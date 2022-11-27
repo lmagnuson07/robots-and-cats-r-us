@@ -1,19 +1,22 @@
-import Head from 'next/head'  
-import { ContentPageHeader } from './../components/headers'
+import { ContentPageLayout } from './../components/layouts'
 
 function SocialRobotsPage() {
     return ( 
         <>
-            <Head>
-                <title>Social Robots</title>
-            </Head>
-            <ContentPageHeader
-                type="Social Robots"
-                title="Select from our range of Social Robots"
-                tagline="Our social robots will keep you company throughout the day, telling stories and holding a conversation!"
-            />
         </>
     );
 }
 
 export default SocialRobotsPage;
+
+SocialRobotsPage.getLayout = function getLayout(page) {
+    return (
+        <ContentPageLayout 
+            title="Social Robots"
+            type="Select from our range of Social Robots"
+            tagline="Our social robots will keep you company throughout the day, telling stories and holding a conversation!"
+        >
+            {page}
+        </ContentPageLayout>
+    )
+}

@@ -6,6 +6,8 @@ export default function Home() {
     <>
       <Head>
         <title>Cats and Robots 'R Us</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <LandingPageHeader 
         title="Do you have a problem, hassle, or inconvenience?"
