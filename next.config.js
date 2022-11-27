@@ -7,6 +7,8 @@ const nextConfig = {
   },
   images: {
     domains: ['robohash.org', 'external-preview.redd.it'],
+    // dangerouslyAllowSVG: true,
+    // contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   }
 }
 
