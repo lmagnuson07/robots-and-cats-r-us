@@ -5,6 +5,7 @@ function RobotCard({name, avatar, manufacturerName, robotUsername, birthCountry,
         available: "text-white bg-blue-700 dark:bg-blue-600",
         unavailable: "text-gray-50 bg-red-800 dark:bg-red-600"
     }
+    const isCat = "pt-4";
     return ( 
         <article className="flex flex-col justify-between w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33%-1.75rem)] bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div>
@@ -14,7 +15,7 @@ function RobotCard({name, avatar, manufacturerName, robotUsername, birthCountry,
                         alt={`Image of the ${name} ${type}`}
                         width={200}
                         height={200}
-                        className="mx-auto"
+                        className={`${type==="Cats" ? isCat : ""} mx-auto`}
                     />
                     <h2 className="mb-2 pt-5 px-5 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">{name}</h2>
                 </header>

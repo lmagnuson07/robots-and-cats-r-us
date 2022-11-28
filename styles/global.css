@@ -16,8 +16,8 @@
         text-shadow: 5px 5px 5px theme('colors.textShadowDark');
     }
     .bg-custom-slate-arc {
-        background-color: rgb(51, 65, 85);
-        background-image: radial-gradient(at 50% 91%, rgb(71, 85, 105) 0, transparent 54%), radial-gradient(at 64% 47%, rgb(15, 23, 42) 0, transparent 80%), radial-gradient(at 35% 46%, rgb(15, 23, 42) 0, transparent 80%);
+        background-color: rgb(148, 163, 184);
+        background-image: radial-gradient(at 50% 90%, rgb(17, 24, 39) 0, transparent 100%), radial-gradient(at 64% 47%, rgb(17, 24, 39) 0, transparent 100%), radial-gradient(at 35% 47%, rgb(17, 24, 39) 0, transparent 100%);
     }
 }
 
