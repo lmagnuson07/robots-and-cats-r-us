@@ -65,7 +65,7 @@ export default function Home() {
                   </p>
                 </section>
                 <section className="container pt-4 px-4 mx-auto text-center lg:w-[calc(50%-1rem)]">
-                  <h4 className="text-3xl py-4 font-bold tracking-tight text-slate-50 sm:text-4xl lg:text-5xl">Cats</h4>
+                  <h4 className="text-3xl py-4 font-bold tracking-tight text-slate-50 sm:text-4xl lg:text-5xl">Virtual Cats</h4>
                   <p className="w-[fit-content] lg:text-xl my-6 max-w-3xl mx-auto text-lg text-center font-normal text-gray-700 dark:text-gray-400">
                     Our adorable virtual cats behave exactly like real cats, but in the Metaverse. They will never stray too far away from you and will warn you of danger.
                   </p>
