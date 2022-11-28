@@ -1,5 +1,4 @@
-import path from 'path'
-import { promises as fs } from 'fs'
+import { getRobots } from './../libs/getRobots'
 import { ContentPageLayout } from './../components/layouts'
 import { RobotCard } from '../components/robots'
 
@@ -34,9 +33,10 @@ export default ServiceRobotsPage;
 ServiceRobotsPage.getLayout = function getLayout(page) {
     return (
         <ContentPageLayout 
-            title="Service Robots"
-            type="Select from our range of Service Robots"
-            tagline="Our service robots will do all those pesky chores that you don't have time for!"
+            type="Service Robots"
+            title="For those pesky chores..."
+            tagline="Our Available Service robots ship as soon as you place the order!"
+            supportTagline="Our Unavailable Service robot ship within 2 weeks!"
         >
             {page}
         </ContentPageLayout>
@@ -44,10 +44,8 @@ ServiceRobotsPage.getLayout = function getLayout(page) {
 }
 
 export async function getStaticProps(content){
-    const filePath = path.join(process.cwd(), './mock/robots.json');
-    const robots = JSON.parse(await fs.readFile(filePath, 'utf8'));
-
-    const serviceRobots = robots.filter(bot => bot.type === "Service Robot")
+    const robots = await getRobots();
+    const serviceRobots = robots.filter(bot => bot.type === "Service Robot");
     return {
         props: {
             serviceBots: serviceRobots
