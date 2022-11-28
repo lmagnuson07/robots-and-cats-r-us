@@ -6,7 +6,7 @@ import { LogoSvg } from './../icons'
 function Footer({ ...props}) {
     return (
       <>
-        <footer className="text-center px-3 pb-20 pt-10 bg-gray-50 text-slate-600 font-bold">
+        <footer className="text-center px-3 py-10 bg-gray-50 text-slate-600 font-bold">
             <div className="container mx-auto">
                 <div className="border-b-2 pb-8 border-gray-700">
                     <Link className="sm:w-[50%] flex justify-center" href="/">
@@ -40,6 +40,7 @@ function Footer({ ...props}) {
                         </adress>
                     <FooterLinks />
                 </div>
+                <p className="mt-12">© 2022 Robots & Cats R Us</p>
             </div>
         </footer>
       </>
