@@ -1,0 +1,1 @@
+export { default as RobotCard } from './RobotCard'

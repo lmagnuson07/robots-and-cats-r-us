@@ -6,9 +6,7 @@ function DefaultLayout({children, pageTitle = 'This is the default title', ...pr
     return ( 
         <>
             <NavBar />
-            <main>
-                {children}
-            </main>
+            {children}
         </>
      );
 }

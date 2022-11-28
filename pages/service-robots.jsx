@@ -1,18 +1,21 @@
 import path from 'path'
 import { promises as fs } from 'fs'
 import { ContentPageLayout } from './../components/layouts'
-import { DeveloperCard } from './../components/developers'
+import { RobotCard } from '../components/robots'
 
 function ServiceRobotsPage({serviceBots}) {
     return ( 
         <>
             { serviceBots.map(bot => 
-                <DeveloperCard
+                <RobotCard
                     key={bot.id} 
                     avatar={bot.avatar} 
                     type={bot.type}
                     name={bot.name} 
                     manufacturerName={bot.manufacturerName}
+                    manufacturerEmail={bot.manufacturerEmail}
+                    manufacturerPhone={bot.manufacturerPhone}
+                    manufacturerWebsite={bot.manufacturerWebsite}
                     robotUsername={bot.robotUsername}
                     birthCountry={bot.birthCountry}
                     birthState={bot.birthState}

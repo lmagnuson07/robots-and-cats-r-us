@@ -9,8 +9,12 @@ function ContentPageLayout({children, title, type, tagline, ...props}) {
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
-            <ContentPageHeader tagline={tagline} type={type} title={title} />
-            {children}
+            <main>
+                <ContentPageHeader tagline={tagline} type={type} title={title} />
+                <div className="container flex flex-wrap flex-row gap-6 justify-center mx-auto px-4 xl:px-8 my-16">
+                    {children}
+                </div>
+            </main>
         </>
     )
 }
