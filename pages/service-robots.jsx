@@ -36,7 +36,7 @@ ServiceRobotsPage.getLayout = function getLayout(page) {
             type="Service Robots"
             title="For those pesky chores..."
             tagline="Our Available Service robots ship as soon as you place the order!"
-            supportTagline="Our Unavailable Service robot ship within 2 weeks!"
+            supportTagline="Our Unavailable Service robots ship within 2 weeks!"
         >
             {page}
         </ContentPageLayout>
