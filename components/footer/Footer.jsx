@@ -9,7 +9,7 @@ function Footer({ ...props}) {
         <footer className="text-center px-3 py-10 bg-gray-50 text-slate-600 font-bold">
             <div className="container mx-auto">
                 <div className="border-b-2 pb-8 border-gray-700">
-                    <Link className="sm:w-[50%] flex justify-center" href="/">
+                    <Link className="flex justify-center" href="/">
                         <figure className="flex items-center gap-2 w-fit">
                             <LogoSvg className="fill-emerald-800 w-12" />
                             <figcaption>

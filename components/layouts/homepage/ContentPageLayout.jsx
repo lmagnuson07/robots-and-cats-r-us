@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { ContentPageHeader } from './../headers'
+import { ContentPageHeader } from '../../headers'
 
 function ContentPageLayout({children, title, type, tagline, supportTagline, ...props}) {
     return (

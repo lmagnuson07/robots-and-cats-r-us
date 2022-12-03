@@ -28,7 +28,7 @@ function LandingPageHeader({title, tagline, imgSrc, imgAlt, imgWidth, imgHeight,
                 </div>
                 <figure className="flex flex-wrap items-center justify-center gap-16 md:gap-8 justify-self-start mx-4 lg:mx-28 mb-6 lg:mb-8 max-w-6xl md:justify-self-center">
                     <figcaption className="md:w-[calc(50%-1rem)]">
-                        <h2 className="text-4xl xl:text-5xl font-bold text-slate-50 text-center md:text-left mb-10 text-shadow font-rockwell">{title}</h2>
+                        <h2 className="text-4xl xl:text-5xl max-w-[31.5rem] font-bold text-slate-50 text-center md:text-left mb-10 text-shadow font-rockwell">{title}</h2>
                         <p className="font-normal text-gray-300 text-2xl xl:text-3xl text-center md:text-left text-shadow">{tagline}</p>
                     </figcaption>
                     <Image className="md:w-[calc(50%-1rem)]"

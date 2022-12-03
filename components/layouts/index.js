@@ -1,2 +1,5 @@
 export { default as DefaultLayout } from './DefaultLayout'
-export { default as ContentPageLayout } from './ContentPageLayout'
+export { default as ContentPageLayout } from './homepage/ContentPageLayout'
+export { default as HomePageSection } from './homepage/HomePageSection'
+export { default as HomePageInnerSection } from './homepage/HomePageInnerSection'
+export { default as HomePageProductSection } from './homepage/HomePageProductSection'
