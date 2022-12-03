@@ -1,12 +1,14 @@
 import Head from 'next/head'  
 
+import { LoginContent } from '../components/content'
+
 export default function LoginPage(){
     return(
         <>
             <Head>
                 <title>Login</title>
             </Head>
-            <h1>Hi. This is the login</h1>
+            <LoginContent />
         </>
     )
 }

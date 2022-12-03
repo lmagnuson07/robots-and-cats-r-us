@@ -7,8 +7,8 @@ function Footer({ ...props}) {
     return (
       <>
         <footer className="text-center px-3 py-10 bg-gray-50 text-slate-600 font-bold">
-            <div className="container mx-auto">
-                <div className="border-b-2 pb-8 border-gray-700">
+            <section className="container mx-auto">
+                <header className="border-b-2 pb-8 border-gray-700">
                     <Link className="flex justify-center" href="/">
                         <figure className="flex items-center gap-2 w-fit">
                             <LogoSvg className="fill-emerald-800 w-12" />
@@ -17,7 +17,7 @@ function Footer({ ...props}) {
                             </figcaption>
                         </figure>
                     </Link>
-                </div>
+                </header>
                 <div className="flex flex-wrap gap-2 justify-center">
                     <adress className="flex pt-10 flex-col sm:w-[calc(50%-.25rem)]">
                         <h3 className="text-4xl mb-4 text-gray-700">
@@ -41,7 +41,7 @@ function Footer({ ...props}) {
                     <FooterLinks />
                 </div>
                 <p className="mt-12">© 2022 Robots & Cats R Us</p>
-            </div>
+            </section>
         </footer>
       </>
     );
