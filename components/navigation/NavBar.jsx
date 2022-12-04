@@ -7,7 +7,7 @@ import NavBarLinks from './NavBarLinks';
 
 function NavBar() {
     return ( 
-        <header className="bg-gray-50 shadow-lg text-slate-600 font-bold fixed w-full px-3 py-4 z-10">
+        <header className="bg-gray-50 shadow-lg text-slate-600 font-bold fixed w-full px-3 py-4 z-20">
             <div className="container grid grid-cols-2 lg:grid-cols-[1fr,auto,1fr] justify-between relative items-center mx-auto">
                 <NavBarBranding />
                 <nav id="main-nav" className="col-[1/-1] lg:col-[2/3] fixed left-0 top-[72px] w-full bg-gray-50 lg:static opacity-0 max-h-0 lg:opacity-100 lg:max-h-12">
@@ -22,6 +22,5 @@ function NavBar() {
         </header>
     );
 }
-
 
 export default NavBar;

@@ -6,7 +6,7 @@ import { LogoSvg } from './../icons'
 function Footer({ ...props}) {
     return (
       <>
-        <footer className="text-center px-3 py-10 bg-gray-50 text-slate-600 font-bold">
+        <footer className="text-center px-3 py-10 bg-gray-50 text-slate-600 font-bold relative top-[72px] lg:top-[76px]">
             <section className="container mx-auto">
                 <header className="border-b-2 pb-8 border-gray-700">
                     <Link className="flex justify-center" href="/">

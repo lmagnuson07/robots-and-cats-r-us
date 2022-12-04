@@ -8,7 +8,9 @@ export default function LoginPage(){
             <Head>
                 <title>Login</title>
             </Head>
-            <LoginContent />
+            <main className="relative top-[72px] lg:top-[76px]">
+                <LoginContent />
+            </main>
         </>
     )
 }
