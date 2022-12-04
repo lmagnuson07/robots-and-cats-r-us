@@ -1,4 +1,5 @@
 import LoginButton from './LoginButton';
+import GithubButton from './GithubButton';
 import MobileMenuButton from './MobileMenuButton';
 import NavBarBranding from './NavBarBranding';
 import NavBarLinks from './NavBarLinks';
@@ -12,7 +13,10 @@ function NavBar() {
                     <MobileMenuButton className="lg:hidden"/> 
                     <NavBarLinks />
                 </nav>
-                <LoginButton className="lg:flex lg:justify-end" />
+                <div className="flex gap-4">
+                    <GithubButton className="lg:flex lg:justify-end" />
+                    <LoginButton className="lg:flex lg:justify-end" />
+                </div>
             </div>
         </header>
      );

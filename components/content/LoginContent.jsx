@@ -34,11 +34,11 @@ function LoginContent() {
                                             <label for="remember" className="text-gray-300">Remember me</label>
                                         </div>
                                     </div>
-                                    <a href="#" className="text-sm font-medium hover:underline text-primary-500">Forgot password?</a>
+                                    <Link href="#" className="text-sm font-medium hover:underline text-primary-500">Forgot password?</Link>
                                 </div>
                                 <button type="submit" className="w-full text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-primary-600 hover:bg-primary-700 focus:ring-primary-800">Sign in</button>
                                 <p className="text-sm font-light text-gray-400">
-                                    Don't have an account yet? <a href="#" className="font-medium hover:underline text-primary-500">Sign up</a>
+                                    Don't have an account yet? <Link href="#" className="font-medium hover:underline text-primary-500">Sign up</Link>
                                 </p>
                             </form>
                         </div>

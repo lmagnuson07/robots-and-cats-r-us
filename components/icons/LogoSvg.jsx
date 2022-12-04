@@ -1,5 +1,5 @@
 
-const SvgComponent = (props) => (
+const LogoSvg = (props) => (
     <svg 
         xmlns="http://www.w3.org/2000/svg" 
         viewBox="0 0 120 120" 
@@ -10,4 +10,4 @@ const SvgComponent = (props) => (
   </svg>
 )
 
-export default SvgComponent
+export default LogoSvg
