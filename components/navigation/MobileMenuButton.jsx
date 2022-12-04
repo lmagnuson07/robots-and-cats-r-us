@@ -1,6 +1,7 @@
 function MobileMenuButton({className, ...props}) {
     return ( 
         <button
+            title="Toggle Button"
             type="button"
             className= {`${className} inline-flex items-center p-2 pr-0 ml-3 text-sm rounded-l focus:outline-none focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600`} 
             aria-controls="navbar-default"
