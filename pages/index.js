@@ -11,7 +11,7 @@ export default function Home() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <main>
+      <main className="relative lg:top-[76px] top-[72px]">
         <LandingPageHeader 
           title="Do you have a problem, hassle, or inconvenience?"
           tagline="We have a Robot for that!!"

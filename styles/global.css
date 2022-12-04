@@ -30,3 +30,8 @@
         font-style: normal;
     }
 }
+
+.toggle-nav {
+    max-width: 1000px;
+    opacity: 0;
+}

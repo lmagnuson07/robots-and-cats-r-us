@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-function NavBarLinks() {
+function NavBarLinks({customStyles, ...props}) {
     return ( 
-        <ul className="hidden lg:flex gap-4">
+        <ul className={`${customStyles} gap-4`}>
             <li>
                 <Link href="/">home</Link>
             </li>

@@ -2,9 +2,9 @@ import Link from 'next/link'
 import { IoMdLogIn } from 'react-icons/io'
 import { IconContext } from "react-icons";
 
-function LoginButton({className, ...props}) {
+function LoginButton({...props}) {
     return ( 
-        <Link href="login" className={`hidden ${className}`}>
+        <Link href="login">
             <figure className="flex flex-col items-center">
                 <IconContext.Provider value={{className: "fill-indigo-600", size: "1.5rem"}}>
                     <IoMdLogIn />
