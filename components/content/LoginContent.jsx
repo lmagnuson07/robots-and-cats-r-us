@@ -10,11 +10,11 @@ function LoginContent() {
                     <Link className="flex justify-center" href="/">
                         <LogoSvg className="fill-emerald-800 w-24 mb-4" />
                     </Link>
-                    <h2 className="text-xl font-bold leading-tight tracking-tight mb-2 md:text-3xl text-white">
+                    <h2 className="text-4xl text-center font-bold leading-tight tracking-tight mb-2 md:text-6xl text-white">
                         Sign in to your account
                     </h2>
-                    <p className="text-base font-bold leading-tight tracking-tight mb-20 text-indigo-600 md:text-lg">Or start your 30 day trial!</p>
-                    <div className="w-full rounded-lg shadow border md:mt-0 sm:max-w-md xl:p-0 bg-gray-800 border-gray-700">
+                    <p className="text-xl font-bold leading-tight tracking-tight mt-5 mb-20 text-indigo-600 md:text-3xl">Or start your 30 day trial!</p>
+                    <div className="w-full rounded-lg shadow border md:mt-0 sm:max-w-lg xl:p-0 bg-gray-800 border-gray-700">
                         <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                             <form className="space-y-4 md:space-y-6" action="#">
                                 <div>

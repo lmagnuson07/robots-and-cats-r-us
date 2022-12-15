@@ -4,7 +4,7 @@ import { IconContext } from "react-icons";
 
 function LoginButton({...props}) {
     return ( 
-        <Link href="login">
+        <Link href="/login">
             <figure className="flex flex-col items-center">
                 <IconContext.Provider value={{className: "fill-indigo-600", size: "1.5rem"}}>
                     <IoMdLogIn />

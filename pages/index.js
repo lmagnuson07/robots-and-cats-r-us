@@ -31,7 +31,7 @@ export default function Home() {
             <HomePageH3
               content="Who We Are"
             />
-            <div class="m-auto w-fit flex flex-col items-center">
+            <div className="m-auto w-fit flex flex-col items-center">
               <HomePageParagraph 
                 content="Robots and Cats 'R Us is a fictitious robot retailer based in the year 2100, where there are as many robots as there are humans, and the main source of entertainment for most of the population is the Metaverse."
               />
@@ -100,14 +100,14 @@ export default function Home() {
           <HomePageContentHeader
             title="About this website"
             containerStyling="container"
-            headingStyling="w-fit"
+            headingStyling="w-fit" 
             paddingLeft="lg:pl-32"
           />
           <HomePageInnerSection>
             <HomePageH3
               content="Our Purpose"
             />
-            <div class="m-auto w-fit flex flex-col items-center">
+            <div className="m-auto w-fit flex flex-col items-center">
               <HomePageParagraph 
                 content="The Robots and Cats 'R Us website is a fictitious CRUD e-commerce website for choosing your next robot (or virtual cat)."
               />

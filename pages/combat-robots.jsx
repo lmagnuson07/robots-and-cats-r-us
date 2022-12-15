@@ -8,9 +8,10 @@ function CombatRobotsPage({combatBots}) {
             { combatBots.map(bot => 
                 <RobotCard
                     key={bot.id} 
+                    id={bot.id}
                     avatar={bot.avatar} 
                     type={bot.type}
-                    name={bot.name} 
+                    fullName={bot.fullName} 
                     manufacturerName={bot.manufacturerName}
                     manufacturerEmail={bot.manufacturerEmail}
                     manufacturerPhone={bot.manufacturerPhone}
